@@ -3,6 +3,9 @@
         max-width: 960px;
         margin: auto;
     }
+    .state_area .container {
+        max-width: 1121px; 
+    }
 }
 @media all and (max-width: 1199px){
 
