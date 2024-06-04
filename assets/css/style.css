@@ -1,11 +1,13 @@
- 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 html{
 	font-size: 62.5%;
 }
 body{	
 	font-size: 1.6rem; 
-	font-weight: 400;
+	font-weight: 400; 
+	overflow-x: hidden;
+	font-family: "Lato", sans-serif;
 }
 h1,h2,h3,h4,h5,h6,p{
 	margin: 0;
@@ -21,9 +23,366 @@ ul li a,a{
 }
 /*======================  Start Page  ======================*/
 
+.menu li a {
+	color: #09215d;
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-color: currentcolor;
+	text-decoration-color: red;
+}
+
+.menu li a:hover {
+	text-decoration-color: #09215d;
+}
+
+.testi_logo ul li:first-child img ,
+.header_logo ul li:first-child img {
+	width: 125px;
+}
+
+.testi_logo ul li:last-child img ,
+.header_logo ul li:last-child img {
+	width: 90px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menu ul {
+	display: flex;
+	gap: 10px;
+}
+
+.testi_logo ul ,
+.header_logo ul {
+	display: flex;
+	align-items: center;
+	gap: 13px;
+}
+.testi_logo ul {
+	justify-content: center;
+}
+
+.header_area {
+	padding: 3px 0;
+	background: #fff;
+}
+
+.banner_img img {
+	width: 802px;
+	height: 575px;
+}
+
+.banner_text h2 {
+	font-size: 36px;
+	font-weight: 600;
+	color: rgb(83, 83, 83);
+}
+
+.banner_text ul li img {
+	height: 13px;
+	width: 14px;
+}
+
+.banner_text ul li p { 
+	font-size: 18px;
+	color: rgb(83, 83, 83);
+}
+
+.banner_text ul li {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+	margin-bottom: 5px;
+}
+
+.banner_text ul {
+	margin: 15px 0;
+}
+
+.btn_1 {
+	display: block;
+	border-style: none;
+	border-radius: 0px;
+	z-index: 38;
+	width: 329px;
+	height: 51px;
+	background: rgba(0,148,255,1);
+	box-shadow: none;
+	text-shadow: none;
+	color: #fff;
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 700;
+	letter-spacing: 0.888889px;
+	box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.199792);
+	font-style: normal;
+	text-align: center;
+	background-repeat: no-repeat;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	transition: 0.3s;
+}
+
+.btn_1:hover {
+	box-shadow: none;
+	color: #fff;
+}
+
+.banner_text a {
+	margin-top: 25px;
+}
+
+.banner_text{
+	width: 100%;
+	max-width:  329px;
+}
+
+.banner_text span {
+	font-size: 14px;
+	color: rgb(83, 83, 83);
+	text-align: center;
+	margin-top: 25px;
+	display: inline-block;
+}
+
+.banner_area {
+	background-color: rgba(245,245,245,1);
+}
+
+.single_hero_part span {
+	display: block;
+	background: rgba(255,255,255,1);
+	border-style: solid;
+	border-width: 2px;
+	border-color: #2588D7;
+	border-radius: 26px;
+	left: 8px;
+	top: 706px;
+	z-index: 54;
+	width: 48px;
+	height: 48px;
+	/* position: absolute; */
+	font-size: 24px;
+	color: rgb(37, 136, 215);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section_padding {
+	padding: 45px 0;
+}
+
+.single_hero_part h3 {
+	font-size: 18px;
+	color: rgb(37, 136, 215);
+	font-weight: 700;
+	font-style: normal;
+}
+
+.single_hero_part {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.testi_group{
+	padding: 45px 0 0 0;
+	border-top: 1px solid #ddd;
+}
+
+.testi_logo {
+	padding-bottom: 25px;
+}
+
+.why_chose_area,
+.help_area,
+.testi_area {
+	background: rgba(251,251,251,1);
+}
 
 
+.single_testi {
+	display: flex;
+	align-items: flex-start;
+	gap: 15px;
+}
 
+.testi_info p {
+	font-size: 18px;
+	color: rgb(63, 75, 79);
+	font-style: normal; 
+	margin-bottom: 27px;
+	font-weight: 400; 
+}
+
+.testi_info span {
+	font-weight: 400; 
+	font-size: 16px;
+	color: rgb(155, 155, 155);
+}
+
+.single_secruity {
+	text-align: center;
+}
+
+.single_secruity h3 {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(127, 127, 127);
+}
+
+.single_security_img {
+	height: 66px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.help_box h2 { 
+	font-size: 32px;
+	font-weight: 600;
+	line-height: normal;
+	color: rgb(63, 75, 79);
+	text-align: center;
+}
+
+.help_box {
+	width: 100%;
+	max-width: 549px;
+	margin: 0 auto;
+}
+
+.help_box ul li p {  
+	font-size: 18px;
+  	font-weight: bold;
+	color: rgb(83, 83, 83);
+}
+
+.help_box ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px; 
+	margin: 25px 0;
+}
+
+.help_box ul li {
+	flex: 0 0 49%;
+}
+
+.help_text_btn { 
+	display: flex;
+	justify-content: center;
+}
+
+.state_img {
+	height: 100%;
+}
+
+.state_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.state_info h3 {
+	font-size: 32px;
+	line-height: normal;
+	font-weight: 600;
+	color: rgb(63, 75, 79);
+	margin-bottom: 12px;
+}
+
+.state_info p {
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 21px;
+	letter-spacing: normal;
+	color: rgb(63, 75, 79);
+	margin-bottom: 12px;
+}
+
+.state_info p a { 
+	font-weight: 700;
+	color: rgb(63, 75, 79);
+}
+
+.why_left h3 {
+	font-size: 32px;
+	line-height: 44px;
+	font-weight: 600;
+	text-align: left;
+	color: #3f4b4f;
+}
+
+.why_left ul li p {
+	font-size: 16px;
+	line-height: 1.1;
+	text-align: left;
+	color: #3f4b4f;
+	color: rgb(126, 126, 126);
+}
+
+.why_left ul li {
+	margin-top: 20px;
+}
+
+.why_choose_right h2 {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: normal;
+	text-align: center;
+	color: #3f4b4f;
+	margin-bottom: 20px;
+}
+
+.why_choose_right {
+	width: 100%;
+	max-width: 330px; 
+}
+
+
+.footer_area{
+	background-color: #BDBDBD;
+}
+
+.footer_menu ul li span,
+.footer_menu ul li a,
+.footer_menu p {
+	font-size: 14px;
+	/* font-family: "Open Sans", sans-serif; */
+	color: white;
+	transition: 0.3s;
+}
+
+.footer_menu ul {
+	display: flex;
+	gap: 5px;
+}
+
+.footer_menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.footer_menu ul li a:hover {
+	color: #0094FF;
+}
+
+.footer_text p {
+	font-size: 12px;
+	color: #fff; 
+	margin-top: 18px;
+}
 
 
 

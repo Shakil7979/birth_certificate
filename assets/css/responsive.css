@@ -1,3 +1,9 @@
+@media all and (min-width: 1199px){
+    .container {
+        max-width: 960px;
+        margin: auto;
+    }
+}
 @media all and (max-width: 1199px){
 
 }
