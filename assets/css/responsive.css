@@ -9,11 +9,121 @@
 }
 
 @media all and (max-width: 991px){
-	
+    .header_logo {
+        flex: 0 0 100%;
+    }
+    .header { 
+        flex-wrap: wrap;
+    }
+    .logo,
+    .menu {
+        flex: 0 0 50%;
+    }
+    .header_logo ul {
+ 
+        justify-content: flex-end;
+    }
+    .footer_menu { 
+        flex-direction: column-reverse;
+    }
+    .footer_menu p {
+        font-size: 12px; 
+    }
+    .footer_menu ul li a {
+        font-size: 20px;
+    }
+    .footer_menu ul { 
+        gap: 0 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer_text p { 
+        text-align: center;
+    }
 }
 
 @media all and (max-width: 767px){
-	
+    .header_logo { 
+        display: none;
+    }
+    .menu {
+        flex: 0 0 100%;
+        padding: 5px 0 12px 0;
+    }
+    .banner_img img {
+        width: 100%;
+        height: auto;
+    }
+    .banner_text {
+        width: 100%;
+        padding-top: 25px;
+        max-width: 329px;
+        margin: 0 auto 25px auto;
+    }
+    .single_hero_part {
+        justify-content: left;
+        width: 100%;
+        max-width: 272px;
+        margin: 0 auto 15px auto;
+    }
+    .testi_logo { 
+        display: none;
+    }
+    .testi_group {
+        padding: 0;
+        border-top: none;
+    }
+    .single_testi { 
+        width: 100%;
+        max-width: 334px;
+        margin: 0 auto 25px auto;
+    }
+    .testi_info p { 
+        margin-bottom: 10px; 
+    }
+    .single_secruity h3 { 
+        width: 100%;
+        max-width: 212px;
+        margin: 0 auto;
+    }
+    .help_box {
+        width: 100%;
+        max-width: 284px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .help_box ul { 
+        flex-direction: column;
+    }
+    .help_box h2 { 
+        text-align: left;
+    }
+
+    .state_info {
+        width: 100%;
+        max-width: 259px;
+        margin: 25px auto 0 auto;
+    }
+    .state_info h3 { 
+        text-align: center;
+    }
+    .state_info p { 
+        text-align: center;
+    }
+    .why_left {
+        width: 100%;
+        max-width: 293px;
+        margin: 0 auto 0 auto;
+    }
+    .why_left h3 { 
+        text-align: center;
+    }
+    .why_choose_right {
+        width: 100%;
+        max-width: 330px;
+        margin: 32px auto 0 auto;
+    }
+    
 }
 
 @media all and (max-width: 575px){
