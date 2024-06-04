@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 html{
 	font-size: 62.5%;
@@ -26,9 +27,11 @@ ul li a,a{
 .menu li a {
 	color: #09215d;
 	font-weight: bold;
+	font-size: 16px;
 	text-decoration: underline;
 	text-decoration-color: currentcolor;
 	text-decoration-color: red;
+	font-family: "Open Sans", sans-serif;
 }
 
 .menu li a:hover {
@@ -175,7 +178,10 @@ ul li a,a{
 }
 
 .section_padding {
-	padding: 45px 0;
+	padding: 35px 0;
+}
+.testi_logo img {
+	width: 240px !important;
 }
 
 .single_hero_part h3 {
@@ -356,10 +362,10 @@ ul li a,a{
 .footer_menu ul li span,
 .footer_menu ul li a,
 .footer_menu p {
-	font-size: 14px;
-	/* font-family: "Open Sans", sans-serif; */
+	font-size: 13px; 
 	color: white;
-	transition: 0.3s;
+	transition: 0.3s; 
+	font-family: "Open Sans", sans-serif;
 }
 
 .footer_menu ul {
@@ -381,7 +387,8 @@ ul li a,a{
 .footer_text p {
 	font-size: 12px;
 	color: #fff; 
-	margin-top: 18px;
+	margin-top: 18px; 
+	font-family: "Open Sans", sans-serif;
 }
 
 
