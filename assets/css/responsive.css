@@ -71,6 +71,10 @@
     .header_logo { 
         display: none;
     }
+    .logo a img {
+        padding-top: 5px;
+        width: 250px;
+    }
     .logo, .menu { 
         flex: 0 0 100%;
         text-align: center;
