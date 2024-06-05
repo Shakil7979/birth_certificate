@@ -22,6 +22,9 @@
     .header { 
         flex-wrap: wrap;
     }
+    .menu li a { 
+        font-size: 15px; 
+    }
     .logo,
     .menu {
         flex: 0 0 50%;
@@ -56,6 +59,15 @@
     .menu {
         flex: 0 0 100%;
         padding: 5px 0 12px 0;
+    }
+    .menu ul { 
+        transform: translate(-0); 
+    }
+    .single_hero_part.single_hero_part2 {
+        transform: translateX(0);
+    }
+    .single_hero_part.single_hero_part3 {
+        transform: translateX(0);
     }
     .banner_img img {
         width: 100%;
