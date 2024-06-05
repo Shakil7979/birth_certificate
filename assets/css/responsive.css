@@ -1,7 +1,11 @@
 @media all and (min-width: 1199px){
     .container {
         max-width: 960px;
-        margin: auto;
+        margin: auto; 
+    }
+    .testi_area  .container, 
+    .header_area .container { 
+        padding: 0;
     }
     .state_area .container {
         max-width: 1121px; 

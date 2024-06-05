@@ -54,9 +54,21 @@ ul li a,a{
 	justify-content: space-between;
 }
 
+.header_logo ul li:first-child {
+	transform: translate(-2px);
+	margin-top: -4px;
+}
+
 .menu ul {
 	display: flex;
-	gap: 10px;
+	gap: 6px;
+	transform: translate(-13px);
+	margin-top: 5px;
+}
+
+.header_logo ul {
+	transform: translate(-25px);
+	margin-top: -7px;
 }
 
 .testi_logo ul ,
@@ -99,7 +111,7 @@ ul li a,a{
 	display: flex;
 	align-items: center;
 	gap: 7px;
-	margin-bottom: 5px;
+	margin-bottom: 8px;
 }
 
 .banner_text ul {
@@ -140,9 +152,10 @@ ul li a,a{
 	margin-top: 25px;
 }
 
-.banner_text{
+.banner_text {
 	width: 100%;
-	max-width:  329px;
+	max-width: 322px;
+	margin-left: 7px;
 }
 
 .banner_text span {
@@ -167,8 +180,8 @@ ul li a,a{
 	left: 8px;
 	top: 706px;
 	z-index: 54;
-	width: 48px;
-	height: 48px;
+	width: 52px;
+	height: 52px;
 	/* position: absolute; */
 	font-size: 24px;
 	color: rgb(37, 136, 215);
@@ -190,11 +203,20 @@ ul li a,a{
 	font-weight: 700;
 	font-style: normal;
 }
+.testi_area.section_padding {
+	padding: 20px 0;
+}
 
 .single_hero_part {
 	display: flex;
 	align-items: center;
 	gap: 12px;
+}
+.single_hero_part.single_hero_part2 {
+	transform: translateX(18px);
+}
+.single_hero_part.single_hero_part3 {
+	transform: translateX(15px);
 }
 
 .testi_group{
@@ -220,11 +242,12 @@ ul li a,a{
 }
 
 .testi_info p {
-	font-size: 18px;
+	font-size: 17px;
 	color: rgb(63, 75, 79);
-	font-style: normal; 
-	margin-bottom: 27px;
-	font-weight: 400; 
+	font-style: normal;
+	margin-bottom: 20px;
+	font-weight: 400;
+	line-height: 24px;
 }
 
 .testi_info span {
@@ -271,11 +294,21 @@ ul li a,a{
 	color: rgb(83, 83, 83);
 }
 
+.why_chose_area.section_padding ,
+.state_area.section_padding {
+	padding: 70px 0;
+}
+
+.state_info {
+	width: 100%;
+	max-width: 493px;
+}
+
 .help_box ul {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 5px; 
-	margin: 25px 0;
+	gap: 5px;
+	margin: 25px 0 35px 0;
 }
 
 .help_box ul li {
@@ -301,7 +334,8 @@ ul li a,a{
 	line-height: normal;
 	font-weight: 600;
 	color: rgb(63, 75, 79);
-	margin-bottom: 12px;
+	margin-bottom: 25px;
+	padding-left: 25px;
 }
 
 .state_info p {
@@ -389,6 +423,10 @@ ul li a,a{
 	color: #fff; 
 	margin-top: 18px; 
 	font-family: "Open Sans", sans-serif;
+}
+
+.footer_area.section_padding {
+	padding: 18px 0;
 }
 
 
