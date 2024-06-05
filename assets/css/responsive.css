@@ -12,12 +12,27 @@
     }
 }
 @media all and (max-width: 1199px){
-
+    .state_img img { 
+        transform: translateX(-27px);
+    }
 }
 
 @media all and (max-width: 991px){
     .header_logo {
         flex: 0 0 100%;
+    }
+    .btn_1 {   
+        width: 268px; 
+        font-size: 14px; 
+    }
+    .banner_img img { 
+        transform: translateX(45px);
+    }
+    .single_hero_part span { 
+        flex: 0 0 auto;
+    }
+    .banner_area { 
+        overflow-x: hidden;
     }
     .header { 
         flex-wrap: wrap;
@@ -59,6 +74,35 @@
     .menu {
         flex: 0 0 100%;
         padding: 5px 0 12px 0;
+    }
+    .banner_img img {
+        transform: translateX(0);
+    }
+    .testi_area.section_padding {
+        padding: 45px 0;
+    }
+    .state_img img {
+        transform: translateX(0);
+    }
+    .why_chose_area.section_padding, .state_area.section_padding {
+        padding: 50px 0;
+    }
+    .banner_area .container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .mobile_logo_banner img {
+        width: 188px;
+    }
+    .mobile_logo_banner {
+        text-align: center;
+        padding: 15px 0;
+        background: #fff;
+    }
+    .desktop_none {
+        display: block;
     }
     .menu ul { 
         transform: translate(-0); 
@@ -120,7 +164,7 @@
 
     .state_info {
         width: 100%;
-        max-width: 259px;
+        max-width: 291px;
         margin: 25px auto 0 auto;
     }
     .state_info h3 { 
@@ -142,11 +186,41 @@
         max-width: 330px;
         margin: 32px auto 0 auto;
     }
-    
+    .why_choose_right h2 { 
+        margin-top: 76px;
+    }
+    .why_choose_right a {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+    }
+    .why_choose_right h2 { 
+        margin-bottom: 35px;
+    }
+    .banner_text a { 
+        width: 100%;
+    }
+    .state_info h3 { 
+        margin-top: 51px;
+    }
 }
 
 @media all and (max-width: 575px){
-	
+    .single_secruity { 
+        margin-bottom: 30px;
+    }
+    .help_text_btn a {
+        width: 100%;
+    }
+    .state_area .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .state_img img {
+        transform: scale(1.1);
+    }
 }
 
 @media all and (max-width: 450px){
